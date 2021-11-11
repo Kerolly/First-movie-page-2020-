@@ -1,0 +1,260 @@
+body{
+    margin: 0;
+    padding: 0;
+   font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    background: url(image_solo/bg.png);
+    background-size: cover ; 
+    width: 100%;
+    height: 100%;
+
+}
+
+
+
+
+/*--------Nav/Header-------*/
+
+.search_box input{
+
+    height: 50px;
+    width: 0px;
+    padding-right: 0px 0px;
+    border: 0px;
+    border-radius: 30px;
+    padding-right: 50px;
+
+    background: transparent;
+    border: 0.1px solid grey;
+    
+
+    transition: 1.5s;
+}
+
+.search_box input:hover{
+    width: 200px;
+    transition: 1.5s;
+    border-radius: 50px;
+    padding-left: 20px ;
+
+}
+
+
+.search-btn{
+color: grey;
+position: absolute;
+top: 20px;
+right: 10.25%;
+
+
+}
+
+
+.nav-item{
+    padding: 0 10px 0px 10px ;
+    text-transform: uppercase;
+    font-size: 18px;
+}
+
+.navbar-brand{
+
+    font-size: 30px;
+    font-weight: 700;
+   
+}
+
+/*--------Body-------*/
+
+.container .row .col h1{
+color: black;
+font-weight: 600;
+font-size: 50px;
+padding-top: 100px;
+
+}
+
+.container .row .col p{
+    padding-top: 30px;
+}
+
+.container .row .col h2{
+    padding-top: 30px;
+}
+
+.container .row .col h3{
+    padding-top: 30px;
+}
+
+.container .row .col a img{
+    padding-top: 15px;
+    padding-left: 15px;
+    
+}
+
+.container .row .col iframe{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    
+}
+
+.container  .col .banner{
+     display: block;
+     margin-left: auto;
+     margin-right: auto;
+     width: 50%;
+     padding-top: 90px;
+     box-shadow: 4px black;
+}
+
+
+/*--------Details-------*/
+
+.jumbotron{
+
+   opacity: 70%;
+   margin-left: 120px;
+   margin-right: 120px;
+   border: 1px solid black;
+   border-radius: 25px !important; 
+
+}
+
+.jumbotron .details{
+    margin-bottom: -50px;
+}
+
+.jumbotron .details h1{
+    margin-top: -40px;
+    padding-left: 25px;
+    font-weight: 600;
+    font-size: 30px;
+}
+
+.jumbotron .details h2  {
+    font-size: 25px;
+    padding-left: 15px;
+    display: inline-block;
+}
+
+.jumbotron .details h4{
+    font-size: 25px;
+    padding-left: 15px;
+    display: inline-block;
+}
+
+.jumbotron .details h5{
+    font-size: 25px;
+    padding-left: 15px;
+    display: inline-block;
+}
+
+.jumbotron .details h6{
+    font-size: 25px;
+    padding-left: 15px;
+    display: inline-block;
+}
+
+.jumbotron .details h3{
+    font-size: 25px;
+    padding-left: 15px;
+    display: inline-block;
+    
+}
+
+.jumbotron .details .production{
+    font-size: 25px;
+    padding-left: 15px;
+    display: inline-block;
+    
+}
+
+.jumbotron .details a{
+    font-size: 19px;
+}
+
+.whitout_a{
+    font-size: 19px;
+    display: inline-block;
+}
+
+
+/*--------Box Office-------*/
+
+
+.jumbotron{
+
+    opacity: 70%;
+    margin-left: 120px;
+    margin-right: 120px;
+    border: 1px solid black;
+    border-radius: 25px !important; 
+ 
+ }
+ 
+ .jumbotron .box_office{
+     margin-bottom: -50px;
+ }
+ 
+ .jumbotron .box_office h1{
+     margin-top: -40px;
+     padding-left: 25px;
+     font-weight: 600;
+     font-size: 30px;
+ }
+ 
+ .jumbotron .box_office h2  {
+     font-size: 25px;
+     padding-left: 15px;
+     display: inline-block;
+ }
+ 
+ .jumbotron .box_office h4{
+     font-size: 25px;
+     padding-left: 15px;
+     display: inline-block;
+ }
+ 
+ .jumbotron .box_office h5{
+     font-size: 25px;
+     padding-left: 15px;
+     display: inline-block;
+ }
+ 
+ .jumbotron .box_office h6{
+     font-size: 25px;
+     padding-left: 15px;
+     display: inline-block;
+ }
+ 
+ .jumbotron .box_office h3{
+     font-size: 25px;
+     padding-left: 15px;
+     display: inline-block;
+     
+ }
+ 
+ .jumbotron .box_office a{
+     font-size: 19px;
+ }
+ 
+
+
+
+
+/*--------Footer-------*/
+
+footer{
+    height: 50px;
+     background-color:#1B1E25;
+     height: 65px;
+ }
+ 
+ footer a, .copy{
+     color: #fff;
+ }
+ footer a:hover{
+     color: #bbb4b2;
+     text-decoration: none;
+ }

@@ -1,0 +1,121 @@
+
+
+/*body{   
+   background-image: url(image_deadpool/bg.jpg);
+   background-repeat: no-repeat;
+   background-size: 100%;
+   z-index: -999;
+   
+
+}
+ */   body{
+        overflow-x: hidden;
+    }
+  
+    body{
+        background-image: url(image_deadpool/bg.jpg);
+        height: 100%;
+        background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    }
+    
+
+/*--------Nav/Header-------*/
+
+.search_box input{
+
+    height: 50px;
+    width: 0px;
+    padding-right: 0px 0px;
+    border: 0px;
+    border-radius: 30px;
+    padding-right: 50px;
+
+    background: transparent;
+    border: 0.1px solid grey;
+    
+
+    transition: 1.5s;
+}
+
+.search_box input:hover{
+    width: 200px;
+    transition: 1.5s;
+    border-radius: 50px;
+    padding-left: 20px ;
+
+}
+
+
+.search-btn{
+color: grey;
+position: absolute;
+top: 20px;
+right: 10.7%;
+
+
+}
+
+
+.nav-item{
+    padding: 0 10px 0px 10px ;
+    text-transform: uppercase;
+    font-size: 18px;
+}
+
+.navbar-brand{
+
+    font-size: 30px;
+    font-weight: 700;
+   
+}
+
+/*--------body-------*/
+
+.content .jumbotron {
+  margin-top: 40px;
+    margin-left: 100px;
+    width: 125%;
+    z-index: 1;
+}
+.newmovie .jumbotron{
+    margin-top: 40px;
+    margin-left: 260px;
+    margin-right: 100px; 
+  z-index: 1;
+}
+
+/*--------Right-------*/
+
+.content .jumbotron {
+    opacity: 65%;
+    border-radius: 50px;
+    padding-left: 25px;
+    
+}
+
+.lead{
+
+    padding-left: 20px;
+font-weight: 400 !important;
+}
+
+.row .col .jumbotron .row .col img{
+    border-radius: 10px;
+    height: 50%;
+    margin-left: 85px;
+   cursor: pointer;
+    -webkit-box-shadow: 7px 10px 21px -4px rgba(0,0,0,0.75);
+-moz-box-shadow: 7px 10px 21px -4px rgba(0,0,0,0.75);
+box-shadow: 7px 10px 21px -4px rgba(0,0,0,0.75);
+
+
+}
+
+.image{
+    border-radius: 50px;
+   display: inline-block;
+    
+}
